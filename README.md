@@ -3,7 +3,7 @@ A 2D game I programmed in Racket (LISP-like). There's asteroids, a spaceship and
 
 # Description
 
-This game is called "Big Blackhole". The goal is to escape the blackhole's gravity and escape, while dodging asteroids that are being sucked into it. The blackhole's gravity is constantly pulling your ship into it, so you must use your engines to accelerate to avoid being sucked in.
+This game is called "Big Black-hole". The goal is to escape the blackhole's gravity and escape, while dodging asteroids that are being sucked into it. The blackhole's gravity is constantly pulling your ship into it, so you must use your engines to accelerate to avoid being sucked in.
 
 You win when you move off the right edge of the window.
 
@@ -16,6 +16,6 @@ Remember, asteroids can destroy themselves, if they happen to collide with each 
 
 START THE GAME BY CALLING THE FUNCTION (bigblackhole).
 
-# You can EDIT THE DIFFICULTY of the game by -
+# You can EDIT THE DIFFICULTY of the game by:
 - going to line 296 'Turnable Constants' and defining the variable 'asteroid-count' to be a positive integer of your choice. The recommended integer is between 10 and 20. Go crazy if you wish.
 - Changing the speed of the asteroids by going to line 171 and editing the first and second arguments of the (random-float) function to be more negative numbers. The greater the range, the more unpredictable the asteroids. The more negative the numbers, the faster the asteroids.
